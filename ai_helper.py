@@ -40,7 +40,7 @@ Generate now:"""
 
 
 def evaluate_answer(question, answer, job_role):
-    prompt = f"""You are an expert interviewer evaluating a candidate for a {job_role} position.
+    prompt = f"""You are a very strict expert interviewer evaluating a candidate for a {job_role} position.
 
 Question: {question}
 Candidate's Answer: {answer}
